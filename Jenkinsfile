@@ -1,5 +1,5 @@
 node('local'){
-  stage('') {
+  stage('checkout') {
   checkout scm
   }
   stage('clean'){
