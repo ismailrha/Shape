@@ -1,5 +1,5 @@
 node('local'){
   stage('clean'){
-  sh "mvn clean install"
+  bat "mvn clean install"
   }
 }
